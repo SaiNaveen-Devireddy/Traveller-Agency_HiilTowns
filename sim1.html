@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                background:url(j.jpg);
+                background-size: cover;
+                background-position: center;
+                font-family:sans-serif;
+            }
+            .j1
+            {
+                width: 320px;
+                height: 470px;
+                background:rgba(0,0,0,0.6);
+                color: #fff;
+                top:50%;left: 50%;
+                position: absolute;
+                transform: translate(-50%,-50%);
+                box-sizing: border-box;
+                padding: 70px 30px;
+
+            }
+            .j2
+            {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                position: absolute;
+                top: -50px;
+                left: calc(50% - 50px);
+                
+
+            }
+            h1{
+                margin: 0;
+                padding: 0 0 20px;
+                text-align: center;
+                font-size: 25px;
+            }
+            .j1 p{
+                margin: 0;
+                padding:5px;
+                font-weight: bold;
+            }
+            .j1 input
+            {
+               width: 80%;
+               margin-bottom: 20px;
+            }
+            .j1 input[type="text"],input[type="password"]
+            {
+                border:none;
+                border-bottom:2px solid #fff;
+                background: transparent;
+                height: 30px;
+                font-size:15px;
+                color: snow;
+            }
+            .j1 input[type="Button"]
+            {
+                border:none;
+                height: 25px;
+                background: orangered;
+                color:mintcream;
+                border-radius: 15px;
+            }
+            .j1 input[type="submit"]:hover{
+                cursor: pointer;
+                background:red;
+
+            }
+            .j1 a{
+                text-decoration: none;
+                font-size: 15px;
+                line-height: 15px;
+                color:pink;
+            }
+            .j1 a:hover{
+                cursor: pointer;
+                   color:fuchsia;
+            }
+                    
+        </style>
+    </head>
+    <body>
+        <div class="j1">
+            <img src="login.png" class="j2" style="position:absolute"></img>
+            <h1>Login Form</h1>
+            <form>
+                <P>Userid</P>
+                <input type="text" placeholder="Enter Your @mail id" required>
+                <p>Password</p>
+                <input type="password" placeholder="Enter Your  New password" required> 
+                <p>Confirm Password</p>   
+                <input type="password" placeholder="Confirm Password" required>   
+                <a href="javascript.html">
+                <input type="button" value="Login"></a>
+                <br>
+                <a href="#">Forgot Your Password</a><br></form>
+                <a href="#">Dont have an account?</a>
+            </form>
+            
+        </div>
+    </body>
+</html>

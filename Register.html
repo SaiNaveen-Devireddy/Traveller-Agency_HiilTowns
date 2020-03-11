@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+        font-size: 20px;
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    }
+    *{
+        box-sizing: border-box
+    }
+    .row{
+        width: 600px;
+        height: 400px;
+        overflow: hidden;
+        color:white;
+    }
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+ padding-left: 40px;
+}
+    input[type=text]{
+        height: 30px;
+        width: 250px;
+        margin-top: 10px;
+        border:1px solid;
+        border-radius: 4px;
+        background-color: bisque;  
+        text-align: center;
+    }
+    textarea{
+         width:250px;
+        margin-top:10px;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: bisque;  
+        text-align: center;
+
+    }
+    h3{
+        margin-top: 30px;
+    }
+    input[type=submit]{
+        width:100px;
+        height: 30px;
+        text-align: center;
+        border-radius: 4px;
+        margin-left: 70px;
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
+    }
+    input[type=text]:focus{
+        border:2px solid red;
+        background-color:skyblue;
+    }
+    textarea:focus{
+        border:2px solid red;
+        background-color:skyblue;
+    }
+    .column span{
+       position: absolute;
+    margin-top: 18px;
+     margin-left: -245px;    
+    }
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column" >
+    <h1>Get in Touch</h1>
+           <p>Please fill out the quick form<br>and we will be in touch with lighting speed</p>
+            <input type="text" placeholder="Enter Ur Name">
+            <span class="fa fa-user"></span><br>
+            <input type="text" placeholder="Enter Ur EMail Id">
+            <span class="fa fa-google"></span><br>
+            <textarea rows="3" cols="30" placeholder="">
+            </textarea><span class="fa fa-envelope"></span>
+            <input type="submit" value="Submit">
+            </div>
+  <div class="column">
+    <h3>Contact with us:</h3>
+            <p>For support or any queries <br>Email us:saidevireddy596844@gmail.com</p>
+            <h3>HillTown Resort,India</h3>
+            <p>Porumamilla,Kadapa(Dst),Andra Pradesh</p>
+            <h3>HillTown Resort,USA</h3>
+            <p>whitehouse,USA</p>
+  </div>
+</div>
+</body>
+</html>

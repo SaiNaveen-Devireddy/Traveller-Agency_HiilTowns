@@ -1,0 +1,66 @@
+<html>
+
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+
+<style>
+.mySlides {display:none;}
+p{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="w3-content w3-section" >
+  <img align="left" class="mySlides" src="naya1.jpg" height="300px" width="400px">
+  <img  align="left" class="mySlides" src="naya2.jpg" height="300px" width="400px">
+  <img align="left" class="mySlides" src="naya3.jpg" height="300px" width="400px">
+</div>
+<p>
+Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge,
+ spanning the border between the US state of New York and the Canadian province of Ontario. 
+ The largest of the three is Horseshoe Falls, also known as Canadian Falls, which straddles the international border between Canada and the United States.[1] The smaller American Falls and Bridal Veil Falls lie entirely within the United States. Bridal Veil Falls are separated from Horseshoe Falls by Goat Island and from American Falls by Luna Island, with both islands situated in New York as well.
+</p>
+<p>Located on the Niagara River, which drains Lake Erie into Lake Ontario, the combined falls have the highest flow rate of any waterfall in North 
+    America that has a vertical drop of more than 50 metres (160 ft). During peak daytime tourist hours, more than 168,000 m3 (six million cubic feet) of water goes over the crest of the falls every minute.[2] Horseshoe Falls is the most powerful waterfall in North America, as measured by flow rate.[3]
+</p>
+<p>
+    The falls are 27 kilometres (17 mi) north-northwest of Buffalo, New York, and 121 kilometres (75 mi) south-southeast of Toronto, between the twin cities of Niagara Falls, Ontario, and Niagara Falls, New York. Niagara Falls was formed when glaciers receded at the end of the Wisconsin glaciation (the last ice age), and water from the newly formed Great Lakes carved a path through the Niagara Escarpment en route to the Atlantic Ocean</p>
+</p>
+<p>
+  Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge,
+   spanning the border between the US state of New York and the Canadian province of Ontario. 
+   The largest of the three is Horseshoe Falls, also known as Canadian Falls, which straddles the international border between Canada and the United States.[1] The smaller American Falls and Bridal Veil Falls lie entirely within the United States. Bridal Veil Falls are separated from Horseshoe Falls by Goat Island and from American Falls by Luna Island, with both islands situated in New York as well.
+  </p>
+  <p>Located on the Niagara River, which drains Lake Erie into Lake Ontario, the combined falls have the highest flow rate of any waterfall in North 
+      America that has a vertical drop of more than 50 metres (160 ft). During peak daytime tourist hours, more than 168,000 m3 (six million cubic feet) of water goes over the crest of the falls every minute.[2] Horseshoe Falls is the most powerful waterfall in North America, as measured by flow rate.[3]
+  </p>
+  <p>
+      The falls are 27 kilometres (17 mi) north-northwest of Buffalo, New York, and 121 kilometres (75 mi) south-southeast of Toronto, between the twin cities of Niagara Falls, Ontario, and Niagara Falls, New York. Niagara Falls was formed when glaciers receded at the end of the Wisconsin glaciation (the last ice age), and water from the newly formed Great Lakes carved a path through the Niagara Escarpment en route to the Atlantic Ocean</p>
+  </p>
+  
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
